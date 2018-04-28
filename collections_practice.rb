@@ -46,5 +46,5 @@ def swap_elements(array)
  end
  
  def sum_array(array)
-   array.
+   array.inject(:+)
  end
