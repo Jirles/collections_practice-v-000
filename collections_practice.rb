@@ -44,3 +44,7 @@ def swap_elements(array)
  def find_a(array)
    array.select{|string| string.starts_with?('a')
  end
+ 
+ def sum_array(array)
+   array.
+ end
