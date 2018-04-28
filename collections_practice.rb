@@ -50,5 +50,5 @@ def swap_elements(array)
  end
  
  def add_s(array)
-   array.each_with_index.collect{|x, i| i == 1 ? next : x << 's'} 
+   array.each_with_index.collect{|x, i| i == 1 ? next : x << 's'}
  end
