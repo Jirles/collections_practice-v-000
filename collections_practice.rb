@@ -11,6 +11,7 @@ def sort_array_desc(array)
     else 
       -1
     end
+  end
 end 
 
 def sort_array_char_count(array)
@@ -22,6 +23,7 @@ def sort_array_char_count(array)
     else 
       -1
     end
+  end
 end
 
 def swap_elements(array)
@@ -31,6 +33,7 @@ def swap_elements(array)
     else 
       0
     end
+  end
  end
  
  def reverse_array(array)
