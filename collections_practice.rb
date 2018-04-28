@@ -35,7 +35,7 @@ def swap_elements(array)
  end
  
  def kesha_maker(array)
-   array.collect{|string, index| string[i][2] = "$"}
+   array.each_with_index.collect{|string, index| string[i][2] = "$"}
  end
  
  def find_a(array)
